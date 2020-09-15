@@ -9,7 +9,7 @@ using Dapper;
 
 namespace Dapper_Project.Models
 {
-    [Table("")]
+    [Table("Answers")]
     public class Answers
     {
         [Key]

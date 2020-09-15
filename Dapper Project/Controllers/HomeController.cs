@@ -15,9 +15,11 @@ namespace Dapper_Project.Controllers
             return View();
         }
 
-        public IActionResult Test()
+        public IActionResult AddQuestion()
         {
+            //ViewBag.PageName = "Add Question";
             return View();
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

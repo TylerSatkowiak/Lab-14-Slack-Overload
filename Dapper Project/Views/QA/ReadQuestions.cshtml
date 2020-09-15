@@ -1,0 +1,26 @@
+﻿@model List<Questions>
+@{
+    ViewData["Title"] = "ReadQuestions";
+}
+
+<h2>Read Questions</h2>
+
+
+@foreach (Questions questions in Model)
+{
+    <br />
+    @questions.Title
+    <br />
+    @questions.ID
+    <br />
+    @questions.Posted
+    <br />
+    @questions.Status
+    <br />
+    @questions.Category
+    <br />
+    @questions.Detail
+    <br />
+    @questions.Tags
+}
+<br />
